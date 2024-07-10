@@ -4,7 +4,7 @@ const getData = (req) => ({
     caconicalUrl: "/",
     abstract: "description",
   },
-  layout: "homepage",
+  layout: "homepage-1",
   slots: {
     header: [
       {
