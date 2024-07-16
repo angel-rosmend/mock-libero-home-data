@@ -353,52 +353,55 @@ const getData = (req) => ({
           {
             type: "article",
             data: {
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get(
-                "host"
-              )}/images/sidebar/sidebar-4.png`,
-              alt: "articolo-xs-image",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/sidebar/sidebar-4.png`,
+                alt: "articolo-xs-image",
+              },
+              title: "L’agenda Giorgia alla Casa Bianca",
+              abstract:
+                "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito",
+              category: "Tipologia",
+              author: "Nome Cognome",
             },
-            title: "L’agenda Giorgia alla Casa Bianca",
-            abstract:
-              "Bollettino dal campo di battaglia della contemporaneità. In Ucraina la Russia riconquista terreno e l’esercito",
-            category: "Tipologia",
-            author: "Nome Cognome",
-          }},
+          },
           {
             type: "article",
             data: {
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get(
-                "host"
-              )}/images/sidebar/sidebar-2.png`,
-              alt: "articolo-xs-image",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/sidebar/sidebar-2.png`,
+                alt: "articolo-xs-image",
+              },
+              title: "Quello che si è schierato contro zan, in lista con zan",
+              abstract:
+                "Siamo giunti al venerdì Santo e i giornali di oggi sono dominati da una figura centrale, quella di Ilaria Salis.",
+              category: "Tipologia",
+              author: "Nome Cognome",
             },
-            title: "Quello che si è schierato contro zan, in lista con zan",
-            abstract:
-              "Siamo giunti al venerdì Santo e i giornali di oggi sono dominati da una figura centrale, quella di Ilaria Salis.",
-            category: "Tipologia",
-            author: "Nome Cognome",
-          }},
+          },
           {
             type: "article",
             data: {
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get(
-                "host"
-              )}/images/sidebar/sidebar-3.png`,
-              alt: "articolo-xs-image",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/sidebar/sidebar-3.png`,
+                alt: "articolo-xs-image",
+              },
+              title:
+                "Maurizio Landini ha scoperto il vero John Elkann: tagli e fughe all'estero",
+              abstract:
+                "Quando gli Agnelli-El kann decisero di offrire la Fiat in pasto ai francesi,  Landini parlò, senza pensarci più di tanto, di «opportunità».",
+              category: "Tipologia",
+              author: "Nome Cognome",
             },
-            title:
-              "Maurizio Landini ha scoperto il vero John Elkann: tagli e fughe all'estero",
-            abstract:
-              "Quando gli Agnelli-El kann decisero di offrire la Fiat in pasto ai francesi,  Landini parlò, senza pensarci più di tanto, di «opportunità».",
-            category: "Tipologia",
-            author: "Nome Cognome",
-          }},
+          },
         ],
       },
     ],
@@ -406,78 +409,93 @@ const getData = (req) => ({
       {
         module: "argumment-5-article",
         contents: [
-          { type: "label", data: {label: "sport"} },
+          { type: "label", data: { label: "sport" } },
           {
             type: "article",
             data: {
-            label: "la previsioine",
-            title: "Alcaraz fuori terribile pressione su Sinner",
-            summary:
-              "Per Jannik Sinner le porte del secondo posto nel ranking cominciano a schiudersi.",
-            category: "Tipologia",
-            author: "Nome Cognome",
-            abstract:
-              "Il commento, entusiasta, di questo clamoroso turning point a favore del tennista italiano viene da Ubaldo Scanagatta, direttore di Ubitennis: “È accaduto ciò che nessuno si aspettava, cioè che Alcaraz potesse perdere contro Dmitrov e con questo punteggio, cioè 6-2, 6-4 e con Dmitrov che ha avuto anche la palla break del 5-1 nel secondo set e l'ha mancata, altrimenti probabilmente lo avrebbe vinto 6-1.",
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/argument/1.png`,
-              alt: "/",
+              label: "la previsioine",
+              title: "Alcaraz fuori terribile pressione su Sinner",
+              summary:
+                "Per Jannik Sinner le porte del secondo posto nel ranking cominciano a schiudersi.",
+              category: "Tipologia",
+              author: "Nome Cognome",
+              abstract:
+                "Il commento, entusiasta, di questo clamoroso turning point a favore del tennista italiano viene da Ubaldo Scanagatta, direttore di Ubitennis: “È accaduto ciò che nessuno si aspettava, cioè che Alcaraz potesse perdere contro Dmitrov e con questo punteggio, cioè 6-2, 6-4 e con Dmitrov che ha avuto anche la palla break del 5-1 nel secondo set e l'ha mancata, altrimenti probabilmente lo avrebbe vinto 6-1.",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/argument/1.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
           {
             type: "article",
             data: {
-            overtitle: "overtitle",
-            title:
-              "Jannik Sinner, non solo tennis a Miami: perché spopola fuori dal campo",
-            date: "data",
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/argument/2.png`,
-              alt: "/",
+              overtitle: "overtitle",
+              title:
+                "Jannik Sinner, non solo tennis a Miami: perché spopola fuori dal campo",
+              date: "data",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/argument/2.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
           {
             type: "article",
             data: {
-            overtitle: "overtitle",
-            title:
-              "Sinner, il punto dell'anno sconvolge i commentatori britannici: urla in diretta | Video",
-            href: "/",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/argument/3.png`,
-              alt: "/",
+              overtitle: "overtitle",
+              title:
+                "Sinner, il punto dell'anno sconvolge i commentatori britannici: urla in diretta | Video",
+              href: "/",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/argument/3.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
           {
             type: "article",
             data: {
-            overtitle: "overtitle",
-            title:
-              "Serie Avvelenata, stagione inquinata da troppe polemiche: pessima figura all'estero",
-            href: "/",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/argument/4.png`,
-              alt: "/",
+              overtitle: "overtitle",
+              title:
+                "Serie Avvelenata, stagione inquinata da troppe polemiche: pessima figura all'estero",
+              href: "/",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/argument/4.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
           {
             type: "article",
             data: {
-            overtitle: "overtitle",
-            title:
-              "'A cosa gioco con Gigio Donnarumma': la spiazzante rivelazione di Jannik Sinner",
-            href: "/",
-            category: "Tipologia",
-            author: "Nome Cognome",
-            date: "Data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/argument/5.png`,
-              alt: "/",
+              overtitle: "overtitle",
+              title:
+                "'A cosa gioco con Gigio Donnarumma': la spiazzante rivelazione di Jannik Sinner",
+              href: "/",
+              category: "Tipologia",
+              author: "Nome Cognome",
+              date: "Data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/argument/5.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
         ],
       },
     ],
@@ -485,146 +503,173 @@ const getData = (req) => ({
       {
         module: "section-special",
         contents: [
-          { type: "label", data: { label: "TV Mania" }},
+          { type: "label", data: { label: "TV Mania" } },
           {
             type: "article",
             data: {
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/1.png`,
-              alt: "/",
-            },
-            href: "/",
-            title: "'IL CEREALE GIAPPONESE' SCONCERTO A L’EREDITà",
-            correlato: [
-              {
-                title:
-                  "apre il pacco e perde 300.000 euro: la reazione del cameraman",
-                href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/1.png`,
+                alt: "/",
               },
-              {
-                title:
-                  "Dai dammi 1 euro, 'Sapeva?': il pacco che scatena i sospetti",
-                href: "/",
-              },
-            ],
-          }},
-          {
-            type: "article",
-            data: {
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/2.png`,
-              alt: "/",
+              href: "/",
+              title: "'IL CEREALE GIAPPONESE' SCONCERTO A L’EREDITà",
+              correlato: [
+                {
+                  title:
+                    "apre il pacco e perde 300.000 euro: la reazione del cameraman",
+                  href: "/",
+                },
+                {
+                  title:
+                    "Dai dammi 1 euro, 'Sapeva?': il pacco che scatena i sospetti",
+                  href: "/",
+                },
+              ],
             },
-            href: "/",
-            title: "dramma ad affari tuoi “colpa dei calzini”",
-            correlato: [
-              {
-                title:
-                  "L'Eredità, Pierpaolo vince alla Ghigliottina: 'Abbinamenti già usato'",
-                href: "/",
+          },
+          {
+            type: "article",
+            data: {
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/2.png`,
+                alt: "/",
               },
-              {
-                title: "Iacometti contro la Boldrini: L'allegra brigata",
-                href: "/",
+              href: "/",
+              title: "dramma ad affari tuoi “colpa dei calzini”",
+              correlato: [
+                {
+                  title:
+                    "L'Eredità, Pierpaolo vince alla Ghigliottina: 'Abbinamenti già usato'",
+                  href: "/",
+                },
+                {
+                  title: "Iacometti contro la Boldrini: L'allegra brigata",
+                  href: "/",
+                },
+              ],
+            },
+          },
+          {
+            type: "article",
+            data: {
+              overtitle: "overtitle",
+              title:
+                " Chiara Ferragni fatta fuori da Della Valle: una pesantissima sentenza anticipata",
+              category: "Tipologia",
+              author: "Nome Cognome",
+              date: "Data",
+              href: "/",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/3.png`,
+                alt: "",
               },
-            ],
-          }},
-          {
-            type: "article",
-            data: {
-            overtitle: "overtitle",
-            title:
-              " Chiara Ferragni fatta fuori da Della Valle: una pesantissima sentenza anticipata",
-            category: "Tipologia",
-            author: "Nome Cognome",
-            date: "Data",
-            href: "/",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/3.png`,
-              alt: "",
+              adv: "Sponsorizzato da Nomeazienda",
             },
-            adv: "Sponsorizzato da Nomeazienda",
-          }},
-          {
-            type: "article",
-            data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "Canale 5, X-Style di Giorgia Venturini gode di ottima salute: i picchi che sorprendono la tv",
-            date: "data",
-            category: "Tipologia",
-            author: "Nome Cognome",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/4.png`,
-              alt: "/",
-            }},
           },
           {
             type: "article",
             data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "Briatore e il tumore, non lo lascio solo. Il dramma di Gregoraci in ospedale | Guarda",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/5.png`,
-              alt: "/",
-            }},
-          },
-          {
-            type: "article",
-            data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "I tempi di Nettuno Branko l'oroscopo il segno con una grande giornata davanti",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/6.png`,
-              alt: "/",
-            }},
-          },
-          {
-            type: "article",
-            data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "Annalisa, sarà la festa della libertà. Madrina del Roma Pride: la sua discesa in campo",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/7.png`,
-              alt: "/",
-            }},
-          },
-          {
-            type: "article",
-            data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "Kate Middleton e il tumore, chi c'è al timone della famiglia non è William",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/8.png`,
-              alt: "/",
-            }},
-          },
-          {
-            type: "article",
-            data: {
-            href: "/",
-            overtitle: "overtitle",
-            title:
-              "Re Carlo, il volto stravolto e attenzione agli occhi: le immagini spaventano Londra",
-            date: "data",
-            image: {
-              url: `${req.protocol}://${req.get("host")}/images/special/9.png`,
-              alt: "/",
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "Canale 5, X-Style di Giorgia Venturini gode di ottima salute: i picchi che sorprendono la tv",
+              date: "data",
+              category: "Tipologia",
+              author: "Nome Cognome",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/4.png`,
+                alt: "/",
+              },
             },
-          }},
+          },
+          {
+            type: "article",
+            data: {
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "Briatore e il tumore, non lo lascio solo. Il dramma di Gregoraci in ospedale | Guarda",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/5.png`,
+                alt: "/",
+              },
+            },
+          },
+          {
+            type: "article",
+            data: {
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "I tempi di Nettuno Branko l'oroscopo il segno con una grande giornata davanti",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/6.png`,
+                alt: "/",
+              },
+            },
+          },
+          {
+            type: "article",
+            data: {
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "Annalisa, sarà la festa della libertà. Madrina del Roma Pride: la sua discesa in campo",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/7.png`,
+                alt: "/",
+              },
+            },
+          },
+          {
+            type: "article",
+            data: {
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "Kate Middleton e il tumore, chi c'è al timone della famiglia non è William",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/8.png`,
+                alt: "/",
+              },
+            },
+          },
+          {
+            type: "article",
+            data: {
+              href: "/",
+              overtitle: "overtitle",
+              title:
+                "Re Carlo, il volto stravolto e attenzione agli occhi: le immagini spaventano Londra",
+              date: "data",
+              image: {
+                url: `${req.protocol}://${req.get(
+                  "host"
+                )}/images/special/9.png`,
+                alt: "/",
+              },
+            },
+          },
         ],
       },
     ],
@@ -633,14 +678,17 @@ const getData = (req) => ({
         module: "banner",
         contents: [
           {
-            title:
-              "<b> Acquista un abbonamento </b> ottieni dei super vantaggi",
-            abstract:
-              "Potrai sfogliare la rivista online, leggere tutte le edizioni locali, ricevere a casa il giornale cartaceo",
-            ctaLabelLeft: "SFOGLIA IL GIORNALE",
-            ctaLabelRight: "Acquista abbonamento",
-            ctaURlLeft: "/",
-            ctaURLRight: "/",
+            type: "banner",
+            data: {
+              title:
+                "<b> Acquista un abbonamento </b> ottieni dei super vantaggi",
+              abstract:
+                "Potrai sfogliare la rivista online, leggere tutte le edizioni locali, ricevere a casa il giornale cartaceo",
+              ctaLabelLeft: "SFOGLIA IL GIORNALE",
+              ctaLabelRight: "Acquista abbonamento",
+              ctaURlLeft: "/",
+              ctaURLRight: "/",
+            },
           },
         ],
       },
@@ -649,7 +697,8 @@ const getData = (req) => ({
         contents: [
           {
             type: "footer-section",
-            data: {title: "sezioni",
+            data: {
+              title: "sezioni",
               items: [
                 { url: "/", label: "Home" },
                 { url: "/", label: "Politica" },
@@ -665,43 +714,45 @@ const getData = (req) => ({
                 { url: "/", label: "Libero video" },
                 { url: "/", label: "Meteo" },
                 { url: "/", label: "Milano" },
-              ],}
+              ],
+            },
           },
           {
             type: "footer-section",
-            data: {title: "Espettacoli",
+            data: {
+              title: "Espettacoli",
               items: [
                 { label: "Televisione", url: "/" },
                 { label: "Gossip & Trash", url: "/" },
                 { label: "Il Diario di Costanzo", url: "/" },
                 { label: "Video by Vista", url: "/" },
-              ],}
+              ],
+            },
           },
-          
-            {
-              type: "footer-section",
-              data: {
-                title: "Scienze e Tech",
+
+          {
+            type: "footer-section",
+            data: {
+              title: "Scienze e Tech",
               items: [
                 { label: "Alimentazione e Benessere", url: "/" },
                 { label: "Salute", url: "/" },
               ],
-              }
             },
-            {
-              type: "footer-section",
-              data: { 
-                title: "altro",
+          },
+          {
+            type: "footer-section",
+            data: {
+              title: "altro",
               items: [
                 { label: "Blog", url: "/" },
                 { label: "Libero TV", url: "/" },
                 { label: "Podcast", url: "/" },
                 { label: "Le Stelle di Branko", url: "/" },
               ],
-              }
             },
-          ],
-        
+          },
+        ],
       },
       {
         module: "policies",
@@ -718,20 +769,20 @@ const getData = (req) => ({
                 { label: "Condizioni generali", url: "/" },
                 { label: "Credits", url: "/" },
               ],
-            }
+            },
           },
         ],
       },
       {
         module: "copyright",
-        content: [
+        contents: [
           {
             type: "text",
             data: {
               title:
-              "Editoriale Libero S.r.l. - Sede Legale: Via dell’Aprica 18, 20158 Milano - Registro Imprese di Milano Monza Brianza Lodi: C.F. e P.IVA 06823221004 - R.E.A. Milano n. 1690166 Cap. Soc. € 400.000,00 i.v. </br> Tutti i diritti riservati - ISSN (sito web): 2531-6370",
+                "Editoriale Libero S.r.l. - Sede Legale: Via dell’Aprica 18, 20158 Milano - Registro Imprese di Milano Monza Brianza Lodi: C.F. e P.IVA 06823221004 - R.E.A. Milano n. 1690166 Cap. Soc. € 400.000,00 i.v. </br> Tutti i diritti riservati - ISSN (sito web): 2531-6370",
+            },
           },
-            }
         ],
       },
     ],
