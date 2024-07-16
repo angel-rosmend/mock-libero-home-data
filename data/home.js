@@ -8,7 +8,7 @@ const getData = (req) => ({
   slots: {
     header: [
       {
-        module "chip-component",
+        module: "chip-component",
         contents: [
           { type: "link", title: "dossieraggio", url: "/" },
           { type: "link", title: "abruzzo", url: "/" },
@@ -16,7 +16,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "select-category",
+        module: "select-category",
         contents: [
           { type: "placeholder", title: "categorie", url: "/" },
           { type: "option", title: "Politica", url: "/" },
@@ -32,7 +32,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "libero-ora",
+        module: "libero-ora",
         contents: [
           {
             type: "podcast",
@@ -45,7 +45,7 @@ const getData = (req) => ({
     ],
     hero: [
       {
-        module "anteprima-apertura",
+        module: "anteprima-apertura",
         contents: [
           {
             type: "article",
@@ -84,7 +84,7 @@ const getData = (req) => ({
     ],
     "main-section": [
       {
-        module "taglio-default",
+        module: "taglio-default",
         contents: [
           {
             type: "article",
@@ -121,7 +121,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "taglio-default",
+        module: "taglio-default",
         contents: [
           {
             type: "article",
@@ -160,7 +160,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "taglio-default",
+        module: "taglio-default",
         contents: [
           {
             type: "article",
@@ -182,7 +182,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "taglio-wide",
+        module: "taglio-wide",
         contents: [
           {
             type: "article",
@@ -216,7 +216,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "taglio-default",
+        module: "taglio-default",
         contents: [
           {
             type: "article",
@@ -235,7 +235,7 @@ const getData = (req) => ({
     ],
     sidebar: [
       {
-        module "sidebar",
+        module: "sidebar",
         contents: [
           {
             type: "label",
@@ -325,7 +325,7 @@ const getData = (req) => ({
     ],
     "argument-5-article": [
       {
-        module "argumment-5-article",
+        module: "argumment-5-article",
         contents: [
           { type: "label", label: "sport" },
           {
@@ -384,7 +384,7 @@ const getData = (req) => ({
     ],
     "section-special": [
       {
-        module "section-special",
+        module: "section-special",
         contents: [
           { type: "label", label: "TV Mania" },
           {
@@ -495,7 +495,7 @@ const getData = (req) => ({
     ],
     footer: [
       {
-        module "banner",
+        module: "banner",
         contents: [
           {
             title:
@@ -510,7 +510,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "sections",
+        module: "sections",
         contents: [
           {
             title: "sezioni",
@@ -561,7 +561,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "policies",
+        module: "policies",
         contents: [
           {
             type: "items",
@@ -578,7 +578,7 @@ const getData = (req) => ({
         ],
       },
       {
-        module "copyright",
+        module: "copyright",
         content: [
           {
             type: "text",
